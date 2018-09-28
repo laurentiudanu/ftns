@@ -74,5 +74,5 @@ body {
     .main-app .ma-grid-wrapper .mgw-nav.prev {left: 0; transform: rotate(45deg);}
     .main-app .ma-grid-wrapper .mgw-nav.next {right: 0; transform:rotate(225deg);}
   .main-app .ma-grid-wrapper p {text-align: center; padding: 24px 0; cursor: pointer;}
-  .main-app .ma-grid-wrapper img {display: none; max-height: 640px; width: auto !important; margin: 0 auto;}
+  .main-app .ma-grid-wrapper img {display: none; max-height: 540px; width: auto !important; margin: 0 auto;}
   .main-app .ma-grid-wrapper img.active {display: block;}

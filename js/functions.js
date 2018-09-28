@@ -33,7 +33,7 @@ window.onload = function() {
     $(document).on("click", ".main-app .start", function(){
       $(this).addClass("hidden");
       for (i = 0; i < 6; i++) {
-        $(".mgw-content").append("<img src='ex/ex-"+randomFixedInteger(105)+".gif' class='exercise'>");
+        $(".mgw-content").append("<img src='ex/ex-"+randomFixedInteger(114)+".gif' class='exercise'>");
       }
       $(".mgw-content img:first").addClass("active");
       $(".ma-grid-wrapper").removeClass("hidden");
@@ -41,7 +41,7 @@ window.onload = function() {
     $(document).on("click", ".main-app .reset", function(){
       $(".mgw-content img").remove();
       for (i = 0; i < 6; i++) {
-        $(".mgw-content").append("<img src='ex/ex-"+randomFixedInteger(105)+".gif' class='exercise'>");
+        $(".mgw-content").append("<img src='ex/ex-"+randomFixedInteger(114)+".gif' class='exercise'>");
       }
       $(".mgw-content img:first").addClass("active");
     });
